@@ -43,7 +43,7 @@ namespace RuyaTabircim.Api.Controllers
                     var responseString = await response.Content.ReadAsStringAsync();
                     return Ok(responseString);
                 }
-                catch (Exception ex)
+                catch
                 {
                     return NotFound("ex");
                 }

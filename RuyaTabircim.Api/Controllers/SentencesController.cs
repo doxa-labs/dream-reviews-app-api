@@ -1,8 +1,6 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using RuyaTabircim.Data.Model;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 using RuyaTabircim.Data.Service.Interface;
 
 namespace RuyaTabircim.Api.Controllers

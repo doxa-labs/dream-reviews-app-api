@@ -115,7 +115,7 @@ namespace RuyaTabircim.Data.Service
                 var response = client.PostAsync("https://exp.host/--/api/v2/push/send", content);
                 //var responseString = response.Content.ReadAsStringAsync();
             }
-            catch (Exception ex)
+            catch
             {
 
             }
